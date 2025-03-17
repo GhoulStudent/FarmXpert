@@ -1,0 +1,157 @@
+/* General Styles */
+body {
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background: #4CAF50; /* Green background */
+    color: white;
+    padding: 20px 0;
+}
+
+.logo h1 {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section Styles */
+.hero {
+    background: url('../images/hero.jpg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-content h2 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+}
+
+.btn {
+    background: #FF9800; /* Orange button */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #E68A00; /* Darker orange on hover */
+}
+
+/* Features Section Styles */
+.features {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.features h2 {
+    margin-bottom: 20px;
+}
+
+.feature-box {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1.5%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.feature-box img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+/* Testimonials Section Styles */
+.testimonials {
+    background: #f9f9f9;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.testimonials h2 {
+    margin-bottom: 20px;
+}
+
+.testimonial {
+    margin: 20px 0;
+}
+
+.testimonial img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .social-media a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .feature-box {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .hero-content h2 {
+        font-size: 2em;
+    }
+
+    .hero-content p {
+        font-size: 1em;
+    }
+}
